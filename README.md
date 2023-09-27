@@ -1,7 +1,6 @@
 # CustomClientBlocker
 
-A plugin that blocks connecting a set of specified client brands
-
+A simple plugin that kicks player using specific client brand
 ## Installation
 
 Download plugin at [Releases](https://github.com/pikokr/CustomClientBlocker/releases)
