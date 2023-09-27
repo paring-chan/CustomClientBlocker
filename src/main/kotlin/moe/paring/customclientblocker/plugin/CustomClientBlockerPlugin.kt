@@ -1,8 +1,8 @@
-package moe.paring.sample.plugin
+package moe.paring.customclientblocker.plugin
 
 import org.bukkit.plugin.java.JavaPlugin
 
-class SamplePlugin : JavaPlugin() {
+class CustomClientBlockerPlugin : JavaPlugin() {
     override fun onEnable() {
         logger.info("Hello, world!")
     }
