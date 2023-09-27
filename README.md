@@ -1,9 +1,12 @@
 # CustomClientBlocker
 
 A simple plugin that kicks player using specific client brand
+
+![Modrinth](https://img.shields.io/modrinth/dt/xsOXeDko?logo=modrinth&label=Modrinth)
+
 ## Installation
 
-Download plugin at [Releases](https://github.com/pikokr/CustomClientBlocker/releases)
+Download plugin at [Modrinth(Under review)](https://modrinth.com/plugin/custom-client-blocker) or [Releases](https://github.com/pikokr/CustomClientBlocker/releases)
 
 ## Usage
 
