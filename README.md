@@ -4,7 +4,7 @@ A plugin that blocks connecting a set of specified client brands
 
 ## Installation
 
-asdfasdf
+Download plugin at [Releases](https://github.com/pikokr/CustomClientBlocker/releases)
 
 ## Usage
 
