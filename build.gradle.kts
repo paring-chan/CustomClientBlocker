@@ -18,11 +18,16 @@ java {
 
 repositories {
     mavenCentral()
+
+    maven(url = "https://repo.dmulloy2.net/repository/public/")
 }
 
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
+
+    implementation("io.github.monun:kommand-api:3.1.7")
+    implementation("io.github.monun:tap-api:4.9.8")
 
     paperweight.paperDevBundle(libs.versions.paper)
 }
@@ -62,6 +67,10 @@ tasks {
             expand(project.properties)
             expand(extra.properties)
         }
+    }
+
+    jar {
+        archiveFileName = "${project.name}.jar"
     }
 
     create<Copy>("serverJar") {

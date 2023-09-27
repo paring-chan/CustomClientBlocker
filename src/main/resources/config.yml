@@ -1,0 +1,4 @@
+# The list of clients to block
+blacklist: []
+# Kick message
+kickMessage: Using %client% is not allowed!
