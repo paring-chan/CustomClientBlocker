@@ -1,5 +1,6 @@
 package moe.paring.customclientblocker.command
 
+import io.github.monun.kommand.StringType
 import io.github.monun.kommand.getValue
 import io.github.monun.kommand.kommand
 import moe.paring.customclientblocker.plugin.CustomClientBlockerPlugin
@@ -26,7 +27,7 @@ fun CustomClientBlockerPlugin.commands() {
                     isConsole || hasPermission("clientblocker.command.players.add") || hasPermission("clientblocker.command.players.modify")
                 }
 
-                then("name" to string()) {
+                then("name" to string(StringType.GREEDY_PHRASE)) {
                     executes { context ->
                         val name: String by context
 
@@ -43,7 +44,7 @@ fun CustomClientBlockerPlugin.commands() {
                     isConsole || hasPermission("clientblocker.command.players.remove") || hasPermission("clientblocker.command.players.modify")
                 }
 
-                then("name" to string()) {
+                then("name" to string(StringType.GREEDY_PHRASE)) {
                     executes { context ->
                         val name: String by context
 
