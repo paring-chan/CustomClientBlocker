@@ -73,13 +73,18 @@ tasks {
         archiveFileName = "${project.name}.jar"
     }
 
+    create<Copy>("buildJar") {
+        from(reobfJar)
+        into(file("build").resolve("outputs"))
+    }
+
     create<Copy>("serverJar") {
-        from(jar)
+        from(reobfJar)
 
         val plugins = file(".server/plugins")
         val updateDir = plugins.resolve("update")
 
-        if (plugins.resolve("${project.name}-$version-dev.jar").exists()) {
+        if (plugins.resolve("${project.name}-$version.jar").exists()) {
             into(updateDir)
         } else {
             into(plugins)
