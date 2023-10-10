@@ -6,7 +6,9 @@ A simple plugin that kicks player using specific client brand
 
 ## Installation
 
-Download plugin at [Modrinth(Under review)](https://modrinth.com/plugin/custom-client-blocker) or [Releases](https://github.com/pikokr/CustomClientBlocker/releases)
+Download plugin at [Modrinth(Under review)](https://modrinth.com/plugin/custom-client-blocker) or [Releases](https://github.com/pikokr/CustomClientBlocker/releases) 
+
+or, you can also download [snapshot builds](https://jenkins.paring.moe/job/Paper/job/CustomClientBlocker/)
 
 ## Usage
 
